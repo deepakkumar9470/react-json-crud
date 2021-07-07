@@ -7,7 +7,7 @@ import { orange} from '@material-ui/core/colors'
 import VisibilityIcon from '@material-ui/icons/Visibility'
 import  EditIcon from '@material-ui/icons/Edit'
 import  DeleteIcon from '@material-ui/icons/Delete'
-import {Link,useParams} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import axios from 'axios'
 
 const useStyles = makeStyles({
@@ -18,7 +18,6 @@ const useStyles = makeStyles({
    })
    
 const List = () => {
-    const {id} = useParams()
     const classes = useStyles()
     const [stuData, setStuData] = useState([])
 
