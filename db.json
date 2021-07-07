@@ -1,0 +1,24 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "stuname": "Deepak Kumar Chouhan",
+      "position": "Full Stack Developer"
+    },
+    {
+      "stuname": "Anupma Singh",
+      "position": "Project Engineer",
+      "id": 2
+    },
+    {
+      "stuname": "Abhinav Singh Gupta",
+      "position": "PHP Developer",
+      "id": 3
+    },
+    {
+      "stuname": "Dhiraj Kumar",
+      "position": "Entrepreneur",
+      "id": 4
+    }
+  ]
+}
